@@ -1,0 +1,94 @@
+local transf = require "transf"
+local constructionutil = require "constructionutil"
+local userId = 30355
+local modId = 1
+local modOrder = 1
+local zPos = 0
+
+function data()
+local function makeParams()
+	return {
+		{
+			key = "height",
+			name = _("height"),
+			uiType = "BUTTON",
+			values = { _("street"), _("track"), _("sidewalk")},
+			defaultIndex = 0
+		},
+		{
+			key = "spwabdg",
+			name = _("spwabdg"),
+			uiType = "BUTTON",
+			values = { _("no"), _("yes"),},
+			defaultIndex = 0
+		},
+		{
+			key = "model",
+			name = _("Model"),
+			uiType = "ICON_BUTTON",
+			values = {
+				"ui/construction/asset/mw_schienenstrassenbus/train/Schienenstrassenbus/Schienenstrassenbus_proto.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/train/Schienenstrassenbus/Schienenstrassenbus_museum.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/train/Schienenstrassenbus/Schienenstrassenbus.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/train/Schienenstrassenbus/Schienenstrassenbus_spurwagen.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/bus/Schienenstrassenbus/Schienenstrassenbus_proto.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/bus/Schienenstrassenbus/Schienenstrassenbus_museum.tga",
+				"ui/construction/asset/mw_schienenstrassenbus/bus/Schienenstrassenbus/Schienenstrassenbus.tga",
+			},
+			tooltip = _("SchiStraBus_tooltip"),
+		},
+	}
+end
+
+return {
+	type = "ASSET_TRACK",
+	description = {
+		description = _("SchiStraBus_desc"),
+			   name = _("Schienenstrassenbus_menu"),
+	},
+	availability = {
+		yearFrom = 1952,
+	},
+	order = (userId * 10000) + (modId * 100) + modOrder,
+	buildMode = "MULTI",
+	categories = { "bustrain" },
+	skipCollision = true,
+	autoRemovable = false,
+	
+	params = makeParams(),
+	
+	updateFn = function(params)
+		local result = { }
+		local models = {
+			[01] = "asset/train/Schienenstrassenbus/Schienenstrassenbus_proto.mdl",
+			[02] = "asset/train/Schienenstrassenbus/Schienenstrassenbus_museum.mdl",
+			[03] = "asset/train/Schienenstrassenbus/Schienenstrassenbus.mdl",
+			[04] = "asset/train/Schienenstrassenbus/Schienenstrassenbus_spurwagen.mdl",
+			[05] = "asset/bus/Schienenstrassenbus/Schienenstrassenbus_proto.mdl",
+			[06] = "asset/bus/Schienenstrassenbus/Schienenstrassenbus_museum.mdl",
+			[07] = "asset/bus/Schienenstrassenbus/Schienenstrassenbus.mdl",
+		}
+		if params.height == 1 then
+			zPos = (zPos + 1.065)
+		elseif 	params.height == 2 then
+			zPos = (zPos + 0.3)
+		end
+		if params.model == 3 then
+			if params.spwabdg == 1 then
+				result.models = { { id = "asset/train/Schienenstrassenbus/Schienenstrassenbus_spurwagen_abdeck.mdl", transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, zPos, 1 }), tag = "Schienenstrassenbus",} }
+			else
+				result.models = { { id = "asset/train/Schienenstrassenbus/Schienenstrassenbus_spurwagen.mdl", transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, zPos, 1 }), tag = "Schienenstrassenbus",} }
+			end
+		else
+			result.models = { { id = models[params.model + 1], transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, zPos, 1 }), tag = "Schienenstrassenbus",} }
+		end
+		result.terrainAlignmentLists = { {
+					type = "EQUAL",
+					faces =  {  }, 
+				} }
+		
+		return result
+	end
+}
+
+end

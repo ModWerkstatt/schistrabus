@@ -1,0 +1,490 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.25, 1.2761671543121, 2.6515877246857, },
+		bbMin = { -6.25, -1.2761671543121, -0.036483913660049, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 7.9151840209961, 1.2761671543121, 1.3440358638763, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+                    {
+                        children = {
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rumpf_lod0.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/kfz_neu_lod0.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/innen_lod0.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/fenster.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/fenster_lod0.msh",
+						        name = "fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_links_lod0.msh",
+						        name = "tritt_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207407951355, 1.1243748664856, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_rechts_lod0.msh",
+						        name = "tritt_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.2074084281921, -1.1243743896484, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_links_lod0.msh",
+						        name = "tritt_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078949, 1.1290724277496, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_rechts_lod0.msh",
+						        name = "tritt_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186888694763, -1.1290721893311, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_links_lod0.msh",
+						        name = "tuer_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, 1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_rechts_lod0.msh",
+						        name = "tuer_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, -1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_links_lod0.msh",
+						        name = "tuer_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, 1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_rechts_lod0.msh",
+						        name = "tuer_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, -1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod0.msh",
+						        name = "Reifen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2037696838379, 0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod0.msh",
+						        name = "Reifen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2037696838379, -0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/achse_lod0.msh",
+						        name = "Rad ungemappt",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872162, 0, 0.4642, 1, },
+					        },
+                        },
+				        name = "bus",
+				        transf = {0.999, 0, 0.035, 0, 0, 1, 0, 0, -0.035, 0, 0.999, 0, 0, 0, 0.05, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod0.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen vorne",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod0.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen hinten",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+                    {
+                        children = {
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rumpf_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/kfz_neu_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/innen_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/fenster.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/fenster_lod1.msh",
+						        name = "fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_links_lod1.msh",
+						        name = "tritt_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207407951355, 1.1243748664856, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_rechts_lod1.msh",
+						        name = "tritt_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.2074084281921, -1.1243743896484, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_links_lod1.msh",
+						        name = "tritt_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078949, 1.1290724277496, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_rechts_lod1.msh",
+						        name = "tritt_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186888694763, -1.1290721893311, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_links_lod1.msh",
+						        name = "tuer_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, 1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_rechts_lod1.msh",
+						        name = "tuer_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, -1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_links_lod1.msh",
+						        name = "tuer_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, 1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_rechts_lod1.msh",
+						        name = "tuer_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, -1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod1.msh",
+						        name = "Reifen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2037696838379, 0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod1.msh",
+						        name = "Reifen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2037696838379, -0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/achse_lod1.msh",
+						        name = "Rad ungemappt",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872162, 0, 0.4642, 1, },
+					        },
+                        },
+				        name = "bus",
+				        transf = {0.999, 0, 0.035, 0, 0, 1, 0, 0, -0.035, 0, 0.999, 0, 0, 0, 0.05, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod1.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen vorne",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod1.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen hinten",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 400,
+		},
+        {
+			node = {
+				children = {
+                    {
+                        children = {
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rumpf_lod2.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/innen_lod2.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/fenster.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/fenster_lod2.msh",
+						        name = "fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_links_lod2.msh",
+						        name = "tritt_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207407951355, 1.1243748664856, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_vorne_rechts_lod2.msh",
+						        name = "tritt_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.2074084281921, -1.1243743896484, 0.44027984142303, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_links_lod2.msh",
+						        name = "tritt_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078949, 1.1290724277496, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tritt_hinten_rechts_lod2.msh",
+						        name = "tritt_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186888694763, -1.1290721893311, 0.42658346891403, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_links_lod2.msh",
+						        name = "tuer_vorne_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, 1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_vorne_rechts_lod2.msh",
+						        name = "tuer_vorne_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6047606468201, -1.2220933437347, 0.79459720849991, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_links_lod2.msh",
+						        name = "tuer_hinten_links",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, 1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", "vehicle/train/Schienenstrassenbus/fenster.mtl", "vehicle/train/Schienenstrassenbus/innen.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/tuer_hinten_rechts_lod2.msh",
+						        name = "tuer_hinten_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4053645133972, -1.2525626420975, 0.79395139217377, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod2.msh",
+						        name = "Reifen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2037696838379, 0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/reifen_lod2.msh",
+						        name = "Reifen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2037696838379, -0.84214401245117, 0.46421998739243, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/achse_lod2.msh",
+						        name = "Rad ungemappt",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872162, 0, 0.4642, 1, },
+					        },
+                        },
+				        name = "bus",
+				        transf = {0.999, 0, 0.035, 0, 0, 1, 0, 0, -0.035, 0, 0.999, 0, 0, 0, 0.05, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod2.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen vorne",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+           					{
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/spurwagen_lod2.msh",
+						        name = "Schienenwagen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.183, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8, 0, 0.324, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/Schienenstrassenbus/rumpf.mtl", },
+						        mesh = "vehicle/train/Schienenstrassenbus/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.8, 0, 0.324, 1, },
+					        },
+                        },
+				        name = "spurwagen hinten",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 1200,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1976,
+			--yearTo = 1967,
+		},
+		cost = {
+			price = 0,
+		},
+		description = {
+			name = _("SchiStraBus_schiene_name"),
+			description = _("SchiStraBus_desc"),
+		},
+	},
+	version = 1,
+}
+end
