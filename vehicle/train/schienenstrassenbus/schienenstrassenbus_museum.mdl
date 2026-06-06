@@ -35,9 +35,27 @@ return {
 									name = "interior",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
-								{
+								{ 
 									materials = { "mat/fenster.mtl", },
-									mesh = "msh/fenster_lod0.msh",
+									mesh = "msh/fenster_links_lod0.msh",
+									name = "fenster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/fenster.mtl", },
+									mesh = "msh/fenster_rechts_lod0.msh",
+									name = "fenster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/fenster_licht.mtl", },
+									mesh = "msh/fenster_display_lod0.msh",
+									name = "fenster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/bus/emissive/bus_add_lights.mtl", },
+									mesh = "msh/display_licht_lod0.msh",
 									name = "fenster",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -448,6 +466,12 @@ return {
 								{
 									materials = { "mat/fenster.mtl", },
 									mesh = "msh/fenster_lod1.msh",
+									name = "fenster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/bus/emissive/bus_add_lights.mtl", },
+									mesh = "msh/display_licht_lod0.msh",
 									name = "fenster",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -1219,7 +1243,7 @@ return {
 				labels = {
 					{
 						alignment = "CENTER",
-						childId = "RootNode",
+						childId = "body",
 						color = { 0, 0, 0, },
 						size = { 0.8, 0.11, },
 						transf = {0, 1, 0, 0, -0.259, 0, 0.966, 0, 0.966, 0, 0.259, 0, 4.84, -0.4, 2.27, 1, },
