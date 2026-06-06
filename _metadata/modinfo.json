@@ -1,0 +1,23 @@
+{
+    "name": "Railroad Bus (\"Schi-Stra-Bus\")",
+    "summary": "A bus that also can drive on rails.",
+    "description": "The railroad bus, also called Schi-Stra-Bus for short, is a two-way vehicle for passenger transport on railway lines and roads. The Deutsche Bundesbahn used it both as a passenger train and as a rail bus.",
+    "localization" : {
+        "de": {
+            "name": "Schienen-Straßen-Omnibus (\"Schi-Stra-Bus\")",
+            "summary": "Ein Bus, der auch auf Schienen fahren kann.",
+            "description": "Der Schienen-Straßen-Omnibus, auch kurz Schi-Stra-Bus genannt, ist ein Zweiwegefahrzeug für den Personenverkehr auf Eisenbahnstrecken und Straßen. Die Deutsche Bundesbahn setzte ihn sowohl als Personenzug als auch als Bahnbus ein."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Bus",
+        "Multiple Unit"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/schienen-strassen-bus"
+}
