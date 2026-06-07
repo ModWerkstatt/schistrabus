@@ -32,14 +32,14 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2010,
+			yearFrom = 1952,
 			yearTo = 0,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("menu_schistrabus"),
+			name = _("menu_bus_schistrabus"),
 		},
 		emissions = {
 			noise = {
@@ -70,9 +70,9 @@ return {
 			},
 		},
 		transportVehicle = {
-			carrier = "RAIL",
-			engineTags = { "ELECTRIC_TRAIN", },
-			tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			carrier = "ROAD",
+			engineTags = { "BUS", },
+			tags = { "BUS", },
 			multipleUnitOnly = true,
 		},
 	},

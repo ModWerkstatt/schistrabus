@@ -1133,7 +1133,7 @@ return {
 					},
 				},
 				engineTags = { "BUS", },
-				groupFileName = "/vehicle/bus/schienenstrassenbus/menu_schistrabus.mdl",
+				groupFileName = "menu_bus_schistrabus.mdl",
 				loadSpeed = 2,
 				tags = { "BUS", },
 			},
