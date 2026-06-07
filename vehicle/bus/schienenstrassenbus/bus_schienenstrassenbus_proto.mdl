@@ -35,20 +35,14 @@ return {
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", },
-							mesh = "/vehicle/train/schienenstrassenbus/msh/fenster_links_lod0.msh",
-							name = "fenster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", },
-							mesh = "/vehicle/train/schienenstrassenbus/msh/fenster_rechts_lod0.msh",
+							mesh = "/vehicle/train/schienenstrassenbus/msh/fenster_lod0.msh",
 							name = "fenster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/fenster_licht.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/fenster_display_lod0.msh",
-							name = "fenster",
+							name = "display_beleuchtung",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
