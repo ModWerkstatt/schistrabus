@@ -71,8 +71,9 @@ return {
 		},
 		transportVehicle = {
 			carrier = "ROAD",
-			engineTags = { "BUS", },
-			tags = { "BUS", },
+			engineTransportModes = { },
+			transportModes = { },
+            filterTags = { },
 		},
 	},
 	version = 2,
