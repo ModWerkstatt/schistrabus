@@ -73,7 +73,6 @@ return {
 			carrier = "ROAD",
 			engineTags = { "BUS", },
 			tags = { "BUS", },
-			multipleUnitOnly = true,
 		},
 	},
 	version = 2,
