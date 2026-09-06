@@ -1,12 +1,12 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 12.4200000762939453125, 4.320000171661376953125, 6.099999904632568359375, },
-			bbMin = { -9, -4.320000171661376953125, -3.4659106731414794921875, },
+			bbMax = { 12.42, 4.32, 6.1, },
+			bbMin = { -9, -4.32, -3.46591, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 7.91518402099609375, 1.2761671543121337890625, 1.3440358638763427734375, },
+				halfExtents = { 7.91518, 1.27617, 1.34404, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
@@ -55,7 +55,7 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_links_lod0.msh",
 							name = "tritt_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20740795135498046875, 1.124374866485595703125, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, 1.12437, 0.44028, 1, },
 						},
 						{ 
 							animations = { 
@@ -76,13 +76,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_rechts_lod0.msh",
 							name = "tritt_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207408428192138671875, -1.1243743896484375, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, -1.12437, 0.44028, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_links_lod0.msh",
 							name = "tritt_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078948974609375, 1.1290724277496337890625, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, 1.12907, 0.426583, 1, },
 						},
 						{ 
 							animations = { 
@@ -103,13 +103,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_rechts_lod0.msh",
 							name = "tritt_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.818688869476318359375, -1.1290721893310546875, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, -1.12907, 0.426583, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_links_lod0.msh",
 							name = "tuer_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, 1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, 1.22209, 0.794597, 1, },
 						},
 						{ 
 							animations = { 
@@ -130,13 +130,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_rechts_lod0.msh",
 							name = "tuer_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, -1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, -1.22209, 0.794597, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_links_lod0.msh",
 							name = "tuer_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, 1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, 1.25256, 0.793951, 1, },
 						},
 						{ 
 							animations = { 
@@ -157,25 +157,25 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_rechts_lod0.msh",
 							name = "tuer_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, -1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, -1.25256, 0.793951, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod0.msh",
 							name = "reifen_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, 0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.20377, 0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod0.msh",
 							name = "reifen_rechts",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, -0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.20377, -0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/achse_lod0.msh",
 							name = "achse",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872161865234375, 0, 0.4641999900341033935546875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.62537, 0, 0.4642, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
@@ -299,7 +299,7 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_links_lod1.msh",
 							name = "tritt_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20740795135498046875, 1.124374866485595703125, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, 1.12437, 0.44028, 1, },
 						},
 						{ 
 							animations = { 
@@ -320,13 +320,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_rechts_lod1.msh",
 							name = "tritt_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207408428192138671875, -1.1243743896484375, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, -1.12437, 0.44028, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_links_lod1.msh",
 							name = "tritt_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078948974609375, 1.1290724277496337890625, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, 1.12907, 0.426583, 1, },
 						},
 						{ 
 							animations = { 
@@ -347,13 +347,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_rechts_lod1.msh",
 							name = "tritt_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.818688869476318359375, -1.1290721893310546875, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, -1.12907, 0.426583, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_links_lod1.msh",
 							name = "tuer_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, 1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, 1.22209, 0.794597, 1, },
 						},
 						{ 
 							animations = { 
@@ -374,13 +374,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_rechts_lod1.msh",
 							name = "tuer_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, -1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, -1.22209, 0.794597, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_links_lod1.msh",
 							name = "tuer_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, 1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, 1.25256, 0.793951, 1, },
 						},
 						{ 
 							animations = { 
@@ -401,25 +401,25 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_rechts_lod1.msh",
 							name = "tuer_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, -1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, -1.25256, 0.793951, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod1.msh",
 							name = "reifen_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, 0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.20377, 0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod1.msh",
 							name = "reifen_rechts",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, -0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.20377, -0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/achse_lod1.msh",
 							name = "achse",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872161865234375, 0, 0.4641999900341033935546875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.62537, 0, 0.4642, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
@@ -531,7 +531,7 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_links_lod2.msh",
 							name = "tritt_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20740795135498046875, 1.124374866485595703125, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, 1.12437, 0.44028, 1, },
 						},
 						{ 
 							animations = { 
@@ -552,13 +552,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_vorne_rechts_lod2.msh",
 							name = "tritt_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.207408428192138671875, -1.1243743896484375, 0.44027984142303466796875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.20741, -1.12437, 0.44028, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_links_lod2.msh",
 							name = "tritt_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8186891078948974609375, 1.1290724277496337890625, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, 1.12907, 0.426583, 1, },
 						},
 						{ 
 							animations = { 
@@ -579,13 +579,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tritt_hinten_rechts_lod2.msh",
 							name = "tritt_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.818688869476318359375, -1.1290721893310546875, 0.426583468914031982421875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.81869, -1.12907, 0.426583, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_links_lod2.msh",
 							name = "tuer_vorne_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, 1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, 1.22209, 0.794597, 1, },
 						},
 						{ 
 							animations = { 
@@ -606,13 +606,13 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_vorne_rechts_lod2.msh",
 							name = "tuer_vorne_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.604760646820068359375, -1.2220933437347412109375, 0.794597208499908447265625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.60476, -1.22209, 0.794597, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_links_lod2.msh",
 							name = "tuer_hinten_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, 1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, 1.25256, 0.793951, 1, },
 						},
 						{ 
 							animations = { 
@@ -633,25 +633,25 @@ return {
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", "/vehicle/train/schienenstrassenbus/mat/fenster.mtl", "/vehicle/train/schienenstrassenbus/mat/innen.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/tuer_hinten_rechts_lod2.msh",
 							name = "tuer_hinten_rechts",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.405364513397216796875, -1.25256264209747314453125, 0.79395139217376708984375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.40536, -1.25256, 0.793951, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod2.msh",
 							name = "reifen_links",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, 0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.20377, 0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/reifen_lod2.msh",
 							name = "reifen_rechts",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.203769683837890625, -0.842144012451171875, 0.464219987392425537109375, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.20377, -0.842144, 0.46422, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
 							mesh = "/vehicle/train/schienenstrassenbus/msh/achse_lod2.msh",
 							name = "achse",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6253697872161865234375, 0, 0.4641999900341033935546875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.62537, 0, 0.4642, 1, },
 						},
 						{ 
 							materials = { "/vehicle/train/schienenstrassenbus/mat/rumpf_proto.mtl", },
@@ -691,6 +691,10 @@ return {
 					speed = -1,
 				},
 			},
+			extent = { 
+				bbMax = { 5.5, 1.27617, 2.65159, },
+				bbMin = { -5.5, -1.27617, -0.0364839, },
+			},
 			labelList = { 
 				labels = {
 					{ 
@@ -698,12 +702,13 @@ return {
 						childId = "RootNode",
 						color = { 0, 0, 0, },
 						size = { 0.8, 0.11, },
-						transf = {0, 1, 0, 0, -0.259, 0, 0.966, 0, 0.966, 0, 0.259, 0, 4.84, -0.4, 2.27, 1, },
+						transf = { 0, 1, 0, 0, -0.259, 0, 0.966, 0, 0.966, 0, 0.259, 0, 4.84, -0.4, 2.27, 1, },
 						type = "LINE_NAME",
 					},
 				},
 			},
 			landVehicle = { 
+				curveSpeedScale = 1,
 				engines = {
 					{ 
 						power = 88,
@@ -711,20 +716,16 @@ return {
 						type = "DIESEL",
 					},
 				},
-				topSpeed = 22.22222137451171875,
+				topSpeed = 22.2222,
 				weightEmpty = 7700,
-				weightMaxPayload = 0,
+				weightMaxPayload = 3300,
 			},
-		   extent = {
-			   bbMax = { 5.5, 1.2761671543121337890625, 2.6515877246856689453125, },
-				bbMin = { -5.5, -1.2761671543121337890625, -0.0364839136600494384765625, },
-		   },
-			lightSourceList = {
+			lightSourceList = { 
 				lights = {
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -737,10 +738,10 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -753,10 +754,10 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
-						color = { 0.427450954914093017578125, 0.02849672921001911163330078125, 0.02849672921001911163330078125, },
+						color = { 0.427451, 0.0284967, 0.0284967, },
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -769,10 +770,10 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
-						color = { 0.427450954914093017578125, 0.02849672921001911163330078125, 0.02849672921001911163330078125, },
+						color = { 0.427451, 0.0284967, 0.0284967, },
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -785,7 +786,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
 						color = { 0.6, 0.04, 0.04, },
@@ -801,7 +802,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 30,
 						angleMin = 1,
 						color = { 0.6, 0.04, 0.04, },
@@ -817,12 +818,11 @@ return {
 						visibleFrom = -1,
 						visibleTo = -1,
 					},
-					{
+					{ 
 						angleMax = 89,
 						angleMin = 9,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 600,
-						fromTime = -1,
 						invertMask = false,
 						length = 5.5,
 						lightId = "",
@@ -831,8 +831,7 @@ return {
 						mode = "LIGHT",
 						radius = 3,
 						strength = 2,
-						toTime = -1,
-						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -0.5, 0, 3.10, 1, },
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -0.5, 0, 3.1, 1, },
 						type = "CYLINDRICAL",
 						visibleFrom = -1,
 						visibleTo = 800,
@@ -852,7 +851,7 @@ return {
 								{ 
 									easing = "Linear",
 									time = 1,
-									value = { 0.2700000107288360595703125, 0.2700000107288360595703125, 0.2700000107288360595703125, },
+									value = { 0.27, 0.27, 0.27, },
 								},
 							},
 						},
@@ -866,10 +865,10 @@ return {
 							},
 						},
 						particleId = "",
-						position = { -4.400000095367431640625, 1.2000000476837158203125, 0.34700000286102294921875, },
+						position = { -4.4, 1.2, 0.347, },
 						shape = { 
 							point = { 
-								maxDir = 0.800000011920928955078125,
+								maxDir = 0.8,
 							},
 						},
 						sizeOverLifeTime = { 
@@ -878,20 +877,20 @@ return {
 									easing = "Linear",
 									time = 0,
 									value = { 
-										value = 0.100000001490116119384765625,
+										value = 0.1,
 									},
 								},
 								{ 
 									easing = "EaseOutSqrt",
 									time = 4,
 									value = { 
-										value = 0.300000011920928955078125,
+										value = 0.3,
 									},
 								},
 							},
 						},
 						velocity = { 
-							value = { -0.699999988079071044921875, 0.5, 0.100000001490116119384765625, },
+							value = { -0.7, 0.5, 0.1, },
 						},
 						velocityByDirection = { 
 							value = 0,
@@ -915,187 +914,187 @@ return {
 						animation = "driving_upright",
 						crew = true,
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.150000095367431640625, 0.4199999868869781494140625, 0.89999997615814208984375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.15, 0.42, 0.9, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.599999904632568359375, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.599999904632568359375, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7999999523162841796875, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7999999523162841796875, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7999999523162841796875, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7999999523162841796875, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.20000000298023223876953125, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.20000000298023223876953125, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.20000000298023223876953125, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.20000000298023223876953125, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.60000002384185791015625, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.60000002384185791015625, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.60000002384185791015625, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.60000002384185791015625, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.6, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39999997615814208984375, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39999997615814208984375, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39999997615814208984375, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39999997615814208984375, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2000000476837158203125, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2000000476837158203125, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2000000476837158203125, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2000000476837158203125, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, 0.85, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.30000019073486328125, -0.800000011920928955078125, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, -0.8, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.30000019073486328125, -0.3499999940395355224609375, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, -0.35, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.30000019073486328125, 0.4000000059604644775390625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, 0.4, 0.85, 1, },
 					},
 					{ 
 						animation = "sitting",
 						group = "body",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.30000019073486328125, 0.85000002384185791015625, 0.85000002384185791015625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, 0.85, 0.85, 1, },
 					},
 				},
 			},
@@ -1133,6 +1132,44 @@ return {
 					},
 				},
 				engineTransportModes = { "BUS", },
+				entrances = {
+					{ 
+						path = {
+							{ -3.85, -3, 0.1, },
+							{ -3.85, -1.9, 0.1, },
+							{ -3.85, -1.25, 0.45, },
+							{ -3.85, -0.95, 0.8, },
+							{ -3.85, 0.3, 0.8, },
+						},
+					},
+					{ 
+						path = {
+							{ 4.2, -3, 0.1, },
+							{ 4.2, -1.9, 0.1, },
+							{ 4.2, -1.5, 0.35, },
+							{ 4.2, -0.95, 0.8, },
+							{ 4.2, 0, 0.8, },
+						},
+					},
+					{ 
+						path = {
+							{ 4.2, 3, 0.1, },
+							{ 4.2, 1.9, 0.1, },
+							{ 4.2, 1.5, 0.35, },
+							{ 4.2, 0.95, 0.8, },
+							{ 4.2, 0, 0.8, },
+						},
+					},
+					{ 
+						path = {
+							{ -3.85, 3, 0.1, },
+							{ -3.85, 1.9, 0.1, },
+							{ -3.85, 1.25, 0.45, },
+							{ -3.85, 0.95, 0.8, },
+							{ -3.85, 0.3, 0.8, },
+						},
+					},
+				},
 				filterTags = { "default", },
 				groupFileName = "menu_bus_schistrabus.mdl",
 				loadSpeed = 2,
